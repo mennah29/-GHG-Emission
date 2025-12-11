@@ -1,6 +1,6 @@
-# 🌍 Global Greenhouse Gas Emissions Analysis
 
 A comprehensive data analysis project examining global greenhouse gas (GHG) emissions patterns across countries, regions, sectors, and income groups.
+<img width="1306" height="726" alt="Screenshot 2025-12-11 163414" src="https://github.com/user-attachments/assets/af5cb5b4-53d1-4e3d-bb19-ff2553d05c4d" /># 🌍 Global Greenhouse Gas Emissions Analysis
 
 ## 📋 Table of Contents
 - [Project Overview](#project-overview)
@@ -15,7 +15,7 @@ A comprehensive data analysis project examining global greenhouse gas (GHG) emis
 ## 🎯 Project Overview
 
 This project analyzes global greenhouse gas emissions data to identify trends, patterns, and key contributors to climate change. The analysis examines emissions across multiple dimensions including temporal trends, geographical distribution, economic classifications, gas types, and sectoral contributions.
-<img width="1306" height="726" alt="Screenshot 2025-12-11 163414" src="https://github.com/user-attachments/assets/6a7aa3f4-a349-4421-a683-d851776b0b9c" />
+
 ### Objectives
 - Track emission trends over time with focus on recent years (2023-2024)
 - Identify top emitting countries and regions
@@ -68,27 +68,37 @@ The analysis reveals:
 ## 🛠️ Technologies Used
 
 - **SQL Server**: Data storage and querying
-- **Tableau**: Data visualization and dashboard creation
-- **SQL**: Complex queries for data analysis and aggregation
+- **Python**: Data processing and analysis scripts
+- **Excel**: Initial data exploration and manipulation
+- **Tableau**: Interactive data visualization and dashboard creation
+- **Power BI**: Additional business intelligence dashboards
+- **Presentation Tools**: Project findings and insights communication
 
 ## 📁 Project Structure
 
 ```
-├── SQL/
+├── Excel/                       # Raw data and Excel analysis
+├── Objectives/                  # Project objectives documentation
+│   └── README.md
+├── PowerBI/                     # Power BI dashboards and reports
+├── Presentation/                # Project presentation materials
+├── Python/                      # Python scripts for data analysis
+├── SQL/                         # SQL database and queries
 │   ├── README.MD
 │   └── SQL Project.sql          # All SQL queries for analysis
-├── Tableau/
+├── Tabluea/                     # Tableau visualizations
 │   └── dashboard.twbx           # Interactive Tableau dashboard
-├── Objectives/
-│   └── README.md
-└── README.md                    # Project documentation
+└── README.md                    # Project documentation (Main)
 ```
 
 ## 🚀 How to Use
 
 ### Prerequisites
 - SQL Server installed
+- Python 3.x (for Python scripts)
+- Microsoft Excel
 - Tableau Desktop (for viewing .twbx file)
+- Power BI Desktop (for viewing Power BI reports)
 
 ### Setup Instructions
 
@@ -110,13 +120,25 @@ The analysis reveals:
 
 ## 📈 Visualizations
 
-The Tableau dashboard provides interactive visualizations including:
+The project includes multiple visualization platforms:
+
+### Tableau Dashboard
 - Time series of global emissions
 - Geographical heat maps
 - Income group comparisons
-- Gas composition pie/bar charts
+- Gas composition charts
 - Sectoral breakdown
 - Top emitters and carbon reducers
+
+### Power BI Reports
+- Interactive dashboards with drill-down capabilities
+- KPI cards for key metrics
+- Dynamic filtering options
+
+### Excel Analysis
+- Pivot tables and charts
+- Preliminary data exploration
+- Data validation and cleaning
 
 ## 🔑 Key SQL Queries
 
@@ -129,7 +151,6 @@ The Tableau dashboard provides interactive visualizations including:
 - **Sector analysis** to pinpoint emission sources
 - **LULUCF leaders** identifying carbon sequestration efforts
 
-
 ## 📝 Future Enhancements
 
 - Add per capita emissions analysis
@@ -137,6 +158,7 @@ The Tableau dashboard provides interactive visualizations including:
 - Implement predictive modeling for future emissions
 - Add more granular sectoral breakdowns
 - Include climate policy impact analysis
+
 
 ## 👤 Author
 
